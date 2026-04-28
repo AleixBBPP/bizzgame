@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>River Girona | Restaurante & Lounge</title>
+  <meta name="description" content="Web oficial de River Girona: carta, ubicación, eventos, horarios y reservas." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="hero" id="inicio">
+    <nav class="nav">
+      <div class="brand">RIVER</div>
+      <ul>
+        <li><a href="#carta">Carta</a></li>
+        <li><a href="#eventos">Eventos</a></li>
+        <li><a href="#horarios">Horarios</a></li>
+        <li><a href="#ubicacion">Ubicación</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+    <div class="hero-content">
+      <p class="eyebrow">Restaurante · Lounge · Coctelería</p>
+      <h1>River Girona</h1>
+      <p>
+        Sabor, diseño y ambiente en pleno corazón de Girona capital.
+        Un espacio elegante para comer, brindar y celebrar.
+      </p>
+      <a class="btn" href="#contacto">Reservar mesa</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="section intro">
+      <div>
+        <h2>Una experiencia auténtica</h2>
+        <p>
+          River combina cocina mediterránea contemporánea, tapas de autor
+          y coctelería premium en un entorno cálido y sofisticado.
+        </p>
+      </div>
+      <div class="stats">
+        <article><strong>+40</strong><span>Platos y tapas</span></article>
+        <article><strong>3</strong><span>Ambientes diferenciados</span></article>
+        <article><strong>Semanal</strong><span>Agenda de eventos</span></article>
+      </div>
+    </section>
+
+    <section class="section" id="carta">
+      <h2>Carta destacada</h2>
+      <div class="grid cards">
+        <article class="card">
+          <h3>Para compartir</h3>
+          <ul>
+            <li>Bravas River · 8,50 €</li>
+            <li>Gyozas crujientes · 10,00 €</li>
+            <li>Huevos estrellados con jamón · 12,50 €</li>
+          </ul>
+        </article>
+        <article class="card">
+          <h3>Platos principales</h3>
+          <ul>
+            <li>Arroz meloso de setas · 16,90 €</li>
+            <li>Entrecot a la brasa · 23,00 €</li>
+            <li>Salmón glaseado · 19,50 €</li>
+          </ul>
+        </article>
+        <article class="card">
+          <h3>Cócteles de autor</h3>
+          <ul>
+            <li>River Spritz · 11,00 €</li>
+            <li>Negroni ahumado · 12,00 €</li>
+            <li>Mojito de maracuyá · 10,50 €</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="eventos">
+      <h2>Eventos en River</h2>
+      <div class="grid events">
+        <article>
+          <h3>Jueves de Jazz & Wine</h3>
+          <p>Sesión en vivo con selección de vinos y tapas especiales.</p>
+          <small>Todos los jueves · 21:00</small>
+        </article>
+        <article>
+          <h3>Afterwork Girona</h3>
+          <p>DJ set, cócteles y ambiente social para terminar el día.</p>
+          <small>Viernes · 19:30</small>
+        </article>
+        <article>
+          <h3>Brunch de domingo</h3>
+          <p>Menú brunch con opciones dulces, saladas y mocktails.</p>
+          <small>Domingos · 12:00 - 16:00</small>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="horarios">
+      <h2>Horarios</h2>
+      <div class="card schedule">
+        <p><strong>Lunes a miércoles:</strong> 13:00 - 16:00 / 19:30 - 23:30</p>
+        <p><strong>Jueves:</strong> 13:00 - 16:00 / 19:30 - 00:30</p>
+        <p><strong>Viernes y sábado:</strong> 13:00 - 16:30 / 19:30 - 02:00</p>
+        <p><strong>Domingo:</strong> 12:00 - 17:00</p>
+      </div>
+    </section>
+
+    <section class="section" id="ubicacion">
+      <h2>Ubicación</h2>
+      <p>Girona capital · Zona centro (ubicación exacta editable para Google Maps).</p>
+      <div class="map-wrap">
+        <iframe
+          title="Mapa River Girona"
+          src="https://www.google.com/maps?q=Girona%20capital&output=embed"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </section>
+
+    <section class="section contact" id="contacto">
+      <h2>Reserva y contacto</h2>
+      <p>Teléfono: +34 972 000 000 · Email: reservas@rivergirona.com</p>
+      <a class="btn" href="mailto:reservas@rivergirona.com">Enviar solicitud</a>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> River Girona. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
