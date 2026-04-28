@@ -51,6 +51,7 @@ h1, h2, h3 { font-family: "Playfair Display", serif; margin-top: 0; }
 h1 { font-size: clamp(2rem, 5vw, 4rem); margin-bottom: .5rem; }
 
 .btn {
+  transition: transform .2s ease, box-shadow .2s ease;
   display: inline-block;
   margin-top: 1rem;
   background: linear-gradient(90deg, var(--accent-strong), var(--accent));
@@ -87,6 +88,8 @@ h1 { font-size: clamp(2rem, 5vw, 4rem); margin-bottom: .5rem; }
   border-radius: 16px;
   filter: sepia(.18) saturate(1.05) contrast(1.06);
 }
+
+.btn:hover { transform: translateY(-1px); box-shadow: 0 10px 24px rgba(54, 23, 16, .42); }
 
 .contact { text-align: center; }
 footer {
